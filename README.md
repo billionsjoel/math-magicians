@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# The Spoonify Recipe App.
 
-## Available Scripts
+> This app helps you search all recipes on the internet and provides you with all necessary information you need about the recipe. You can comment, reserve or like a recipe.
 
-In the project directory, you can run:
+![screenshot](./app-screenshot.png)
 
-### `npm start`
+## Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- HTML, CSS and Js (ES6).
+- No Frameworks
+- Webpack
+- Git, Github and VsCode.
+- Jest framework
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Live Demo
 
-### `npm test`
+- Click [here](https://billionsjoel.github.io/spoonify/) for the live site.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Video Demo
 
-### `npm run build`
+- Click [here](https://drive.google.com/file/d/1wZM0TTMX-FRgwLxTkfpAQY_wYMVqOgkR/view?usp=sharing) for the video demo.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To get a local copy up and running follow these simple example steps.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+- A modern upto-date browser
+- Text Editor or IDE
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1.  Clone the Repo or Download the Zip file or `https://github.com/billionsjoel/spoonify.git`.
+2.  `cd/spoonify`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+After cloning the project you need to run these commands
 
-## Learn More
+- `npm install` `This command will download all the dependancies of the project`
+- `npm run build`
+- `npm run start`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Tests
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- run npm test
 
-### Code Splitting
+### Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- open index.html file with a server or localhost.
 
-### Analyzing the Bundle Size
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+👤 ** Atugonza Billions joel **
 
-### Making a Progressive Web App
+- GitHub: [@billionsjoel](https://github.com/billionsjoel)
+- Twitter: [@billionsjoel](https://twitter.com/BillionsJoel)
+- LinkedIn: [billionsjoel](https://www.linkedin.com/in/billionsjoel/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🤝 Contributing
 
-### Advanced Configuration
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Feel free to check the [issues page](../../issues/).
 
-### Deployment
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Give a ⭐️ if you like this project!
 
-### `npm run build` fails to minify
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
