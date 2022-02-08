@@ -1,26 +1,22 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# The Spoonify Recipe App.
+# The Math Magicians App.
 
-> This app helps you search all recipes on the internet and provides you with all necessary information you need about the recipe. You can comment, reserve or like a recipe.
+> This app helps you perform math operations.
 
 ![screenshot](./app-screenshot.png)
 
 ## Built With
 
 - HTML, CSS and Js (ES6).
-- No Frameworks
+- Using React Framework
 - Webpack
 - Git, Github and VsCode.
-- Jest framework
+- Jest framework for testing
 
 ### Live Demo
 
-- Click [here](https://billionsjoel.github.io/spoonify/) for the live site.
-
-### Video Demo
-
-- Click [here](https://drive.google.com/file/d/1wZM0TTMX-FRgwLxTkfpAQY_wYMVqOgkR/view?usp=sharing) for the video demo.
+- Not yet available.
 
 ## Getting Started
 
@@ -33,24 +29,15 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-1.  Clone the Repo or Download the Zip file or `https://github.com/billionsjoel/spoonify.git`.
-2.  `cd/spoonify`
+1.  Clone the Repo or Download the Zip file or `https://github.com/billionsjoel/math-magicians`.
+2.  `cd/math-magicians`
 
 ### Install
 
 After cloning the project you need to run these commands
 
 - `npm install` `This command will download all the dependancies of the project`
-- `npm run build`
 - `npm run start`
-
-### Tests
-
-- run npm test
-
-### Usage
-
-- open index.html file with a server or localhost.
 
 ## Authors
 
@@ -64,7 +51,7 @@ After cloning the project you need to run these commands
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/billionsjoel/math-magicians/issues).
 
 ## Show your support
 
