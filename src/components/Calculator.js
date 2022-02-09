@@ -1,21 +1,29 @@
-import PropTypes from 'prop-types';
-
 import './Calculator.css';
 import React from 'react';
+import calculate from '../logic/calculate';
 
 class Calculator extends React.Component {
   constructor(props) {
     super(props);
-    this.state = props.answer;
+    this.state = {
+      total: '0',
+      next: null,
+      operation: null,
+    };
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick = (e) =>
+  {
+    if (!e.target.name) return;
+    const {next, total, operation} = calculate(this.state, e.target.name)
   }
 
   render() {
     return (
       <div className="App">
         <div className="grid-container calc-container">
-          <div className="grid-item item-1 answer-field">
-            {this.state}
-          </div>
+          <div className="grid-item item-1 answer-field">{this.state}</div>
           <div className="grid-item">AC</div>
           <div className="grid-item">&#177;</div>
           <div className="grid-item">%</div>
@@ -40,9 +48,5 @@ class Calculator extends React.Component {
     );
   }
 }
-
-Calculator.propTypes = {
-  answer: PropTypes.number.isRequired,
-};
 
 export default Calculator;
