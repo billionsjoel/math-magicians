@@ -13,10 +13,15 @@ class Calculator extends React.Component {
     this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick = (e) =>
-  {
+  handleClick = (e) => {
     if (!e.target.name) return;
-    const {next, total, operation} = calculate(this.state, e.target.name)
+    const { next, total, operation } = calculate(this.state, e.target.name);
+
+    if (next === null && total === null) {
+      this.setState({ next, total: '0', operation });
+    } else {
+      this.setState({ next, total, operation });
+    }
   }
 
   render() {
