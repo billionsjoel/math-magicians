@@ -15,6 +15,11 @@
   padding: 2rem;
 }
 
+.grid-item:hover {
+  background-color: lime;
+  cursor: pointer;
+}
+
 .item-1 {
   grid-column: 1/5;
   text-align: end;
