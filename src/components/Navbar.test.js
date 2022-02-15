@@ -6,6 +6,13 @@ import '@testing-library/jest-dom';
 
 import Navbar from './Navbar';
 
-
+test('render nav element', () => {
+	const { getByText } = render(
+		<MemoryRouter>
+			<Navbar />
+		</MemoryRouter>
+	);
+	expect(getByText('Math Magicians')).toBeInTheDocument();
+});
 
 
