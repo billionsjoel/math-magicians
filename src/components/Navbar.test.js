@@ -15,4 +15,19 @@ test('render nav element', () => {
 	expect(getByText('Math Magicians')).toBeInTheDocument();
 });
 
+test('test hyperlink click', () => {
+	render(
+		<MemoryRouter>
+			<Navbar />
+		</MemoryRouter>
+	);
+	fireEvent.click(screen.getByText('Calculator'));
 
+	expect(screen.getByText('Calculator')).toMatchInlineSnapshot(`
+<a
+  href="/calculator"
+>
+  Calculator
+</a>
+`);
+});
