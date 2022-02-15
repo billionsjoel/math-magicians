@@ -2,7 +2,12 @@
 /* eslint-disable indent */
 
 function Home() {
-	return <div>Home Page</div>;
+	return (
+  <div>
+    <h1>Welcome to our page!</h1>
+
+  </div>
+	);
 }
 
 export default Home;
