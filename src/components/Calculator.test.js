@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 import Calculator from './Calculator';
 
 it('renders buttons', () => {
-	const tree = renderer.create(<Calculator />).toJSON();
+  const tree = renderer.create(<Calculator />).toJSON();
 
-	expect(tree).toMatchSnapshot();
+  expect(tree).toMatchSnapshot();
 });
