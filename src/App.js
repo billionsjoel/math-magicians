@@ -2,24 +2,27 @@
 /* eslint-disable react/jsx-indent */
 /* eslint-disable no-tabs */
 import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Calculator from './components/Calculator';
 import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
 	return (
 		<Router>
-      <Route exact path="/" element={
-	<>
-				<BrowserRouter>
-					<Navbar />
-					<div className="App">
-						<Calculator />
-					</div>
-				</BrowserRouter>
-			</>
-      }>
-
+			<Routes>
+				<Route
+					exact
+					path="/"
+					element={
+						<>
+							<Navbar />
+							<div className="App">
+								<Calculator />
+							</div>
+						</>
+					}
+				></Route>
+			</Routes>
 		</Router>
 	);
 }
