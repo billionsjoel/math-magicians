@@ -36,7 +36,17 @@ function App() {
 						</>
     )}
 				/>
-
+				<Route
+					path="/quote"
+					element={(
+      <>
+							<Navbar />
+							<div className="App">
+								<Quote />
+							</div>
+						</>
+    )}
+				/>
 			</Routes>
 		</Router>
 	);
