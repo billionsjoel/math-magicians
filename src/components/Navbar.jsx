@@ -10,7 +10,9 @@ function Nabar() {
 			<div className="logo">MATH MAGICIANS</div>
 			<div className="menu-items">
 				<ul>
-				
+					<li>
+						<Link to="/home">Home</Link>
+					</li>
 
 
 				</ul>
