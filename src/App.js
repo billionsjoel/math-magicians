@@ -9,8 +9,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 function App() {
 	return (
 		<Router>
-			<Route exact path="/" />
-			<>
+      <Route exact path="/" element={
+	<>
 				<BrowserRouter>
 					<Navbar />
 					<div className="App">
@@ -18,6 +18,8 @@ function App() {
 					</div>
 				</BrowserRouter>
 			</>
+      }>
+
 		</Router>
 	);
 }
