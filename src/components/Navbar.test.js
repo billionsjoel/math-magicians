@@ -7,23 +7,23 @@ import '@testing-library/jest-dom';
 import Navbar from './Navbar';
 
 test('render nav element', () => {
-	const { getByText } = render(
-		<MemoryRouter>
-			<Navbar />
-		</MemoryRouter>
-	);
-	expect(getByText('Math Magicians')).toBeInTheDocument();
+  const { getByText } = render(
+    <MemoryRouter>
+      <Navbar />
+    </MemoryRouter>,
+  );
+  expect(getByText('Math Magicians')).toBeInTheDocument();
 });
 
 test('test hyperlink click', () => {
-	render(
-		<MemoryRouter>
-			<Navbar />
-		</MemoryRouter>
-	);
-	fireEvent.click(screen.getByText('Calculator'));
+  render(
+    <MemoryRouter>
+      <Navbar />
+    </MemoryRouter>,
+  );
+  fireEvent.click(screen.getByText('Calculator'));
 
-	expect(screen.getByText('Calculator')).toMatchInlineSnapshot(`
+  expect(screen.getByText('Calculator')).toMatchInlineSnapshot(`
 <a
   href="/calculator"
 >
