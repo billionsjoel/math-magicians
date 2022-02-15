@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 function Nabar() {
 	return (
 		<div className="menu">
-			<div className="logo">MATH MAGICIANS</div>
+			<div className="logo">Math Magicians</div>
 			<div className="menu-items">
 				<ul>
 					<li>
