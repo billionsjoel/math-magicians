@@ -11,7 +11,7 @@ function Nabar() {
 			<div className="menu-items">
 				<ul>
 					<li>
-						<Link to="/home">Home</Link>
+						<Link to="/">Home</Link>
 					</li>
 					<li>
 						<Link to="/calculator">Calculator</Link>
