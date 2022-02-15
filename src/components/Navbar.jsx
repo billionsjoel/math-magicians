@@ -13,7 +13,9 @@ function Nabar() {
 					<li>
 						<Link to="/home">Home</Link>
 					</li>
-
+					<li>
+						<Link to="/calculator">Calculator</Link>
+					</li>
 
 				</ul>
 			</div>
