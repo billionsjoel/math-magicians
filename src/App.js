@@ -8,6 +8,7 @@ import Calculator from './components/Calculator';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Quote from './pages/Quote';
+import CalculatorPage from './pages/CalculatorPage';
 
 function App() {
 	return (
@@ -20,6 +21,7 @@ function App() {
       <>
 							<Navbar />
 							<div className="App">
+								<CalculatorPage />
 								<Calculator />
 							</div>
 						</>
