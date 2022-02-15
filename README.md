@@ -4,7 +4,7 @@
 
 > This app helps you perform math operations.
 
-![screenshot](./app-screenshot.png)
+![screenshot](./app-screenshot1.png)
 
 ## Built With
 
