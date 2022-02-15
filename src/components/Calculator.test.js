@@ -5,4 +5,5 @@ import Calculator from './Calculator';
 it('renders buttons', () => {
 	const tree = renderer.create(<Calculator />).toJSON();
 
+	expect(tree).toMatchSnapshot();
 });
