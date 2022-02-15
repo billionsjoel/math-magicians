@@ -10,5 +10,9 @@ test('should first', () => {
 			},
 			'AC'
 		)
-	)
+	).toMatchObject({
+		total: null,
+		next: null,
+		operation: null,
+	});
 });
