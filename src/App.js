@@ -25,7 +25,17 @@ function App() {
 						</>
     )}
 				/>
-		
+				<Route
+					path="/home"
+					element={(
+      <>
+							<Navbar />
+							<div className="App">
+								<Home />
+							</div>
+						</>
+    )}
+				/>
 
 			</Routes>
 		</Router>
