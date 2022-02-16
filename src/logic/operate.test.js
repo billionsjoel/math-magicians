@@ -7,5 +7,10 @@ describe('testing operate.js', () => {
 
   test('checks subtraction of 2 numbers', () => {
 		expect(operate(10, 5, '-')).toBe('5');
-	});
+  });
+
+  test('checks multiplication of 2 numbers', () => {
+		expect(operate(10, 2, 'x')).toBe('20');
+  });
+
 });
