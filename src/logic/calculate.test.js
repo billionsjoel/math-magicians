@@ -18,7 +18,7 @@ describe('testing calculate.js', () => {
     });
   });
 
-  test('click on first number', () => {
+  test('checks if clicked on first number', () => {
     const obj = {
       total: null,
       next: null,
@@ -27,4 +27,14 @@ describe('testing calculate.js', () => {
     const result = calculate(obj, '9');
     expect(result.next).toEqual('9');
   });
+
+  test('checks if clicked on an operation', () => {
+		const obj = {
+			total: null,
+			next: '1',
+			operation: null,
+		};
+		const result = calculate(obj, '+');
+		expect(result.operation).toEqual('+');
+	});
 });
