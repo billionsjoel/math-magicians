@@ -4,7 +4,7 @@
 import './navBar.css';
 import { Link } from 'react-router-dom';
 
-function Nabar() {
+function Navbar() {
 	return (
 		<div className="menu">
 			<div className="logo">Math Magicians</div>
@@ -25,4 +25,4 @@ function Nabar() {
 	);
 }
 
-export default Nabar;
+export default Navbar;

@@ -39,6 +39,10 @@ After cloning the project you need to run these commands
 - `npm install` `This command will download all the dependancies of the project`
 - `npm run start`
 
+### Run Tests
+
+  - `npm run test`
+
 ## Authors
 
 👤 ** Atugonza Billions joel **
