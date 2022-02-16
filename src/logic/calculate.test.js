@@ -50,13 +50,13 @@ describe('testing calculate.js', () => {
     expect(result.operation).toEqual('-');
   });
 
-    test('checks if operation works when = is clicked', () => {
-			const obj = {
-				total: '4',
-				next: '2',
-				operation: '÷',
-			};
-			const result = calculate(obj, '=');
-			expect(result.total).toEqual('2');
-		});
+  test('checks if operation works when = is clicked', () => {
+    const obj = {
+      total: '4',
+      next: '2',
+      operation: '÷',
+    };
+    const result = calculate(obj, '=');
+    expect(result.total).toEqual('2');
+  });
 });
