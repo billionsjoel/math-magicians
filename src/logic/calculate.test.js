@@ -29,12 +29,12 @@ describe('testing calculate.js', () => {
   });
 
   test('checks if clicked on an operation', () => {
-		const obj = {
-			total: null,
-			next: '1',
-			operation: null,
-		};
-		const result = calculate(obj, '+');
-		expect(result.operation).toEqual('+');
-	});
+    const obj = {
+      total: null,
+      next: '1',
+      operation: null,
+    };
+    const result = calculate(obj, '+');
+    expect(result.operation).toEqual('+');
+  });
 });
