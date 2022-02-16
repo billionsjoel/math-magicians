@@ -37,4 +37,16 @@ describe('testing calculate.js', () => {
     const result = calculate(obj, '+');
     expect(result.operation).toEqual('+');
   });
+
+  test('checks if clicked on second number after operation', () => {
+		const obj = {
+			total: '5',
+			next: null,
+			operation: '-',
+		};
+		const result = calculate(obj, '2');
+		expect(result.total).toEqual('5');
+		expect(result.next).toEqual('2');
+		expect(result.operation).toEqual('-');
+	});
 });
