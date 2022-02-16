@@ -19,12 +19,12 @@ describe('testing calculate.js', () => {
   });
 
   test('click on first number', () => {
-		const obj = {
-			total: null,
-			next: null,
-			operation: null,
-		};
-		const result = calculate(obj, '9');
-		expect(result.next).toEqual('9');
-	});
+    const obj = {
+      total: null,
+      next: null,
+      operation: null,
+    };
+    const result = calculate(obj, '9');
+    expect(result.next).toEqual('9');
+  });
 });
